@@ -1,0 +1,215 @@
+html {
+    background-color: #140f16;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100%;
+    box-shadow: inset 0px 0px 100px 1px #5e1a4f;
+    margin: auto;
+    align-content: space-around;
+}
+.card {
+    display: block;
+    background-color: #2e2e2e;
+    max-width: 20em;
+    height: 40em;
+    border-radius: 15px;
+    border: 2px solid #3b2941;
+    box-shadow: 0px 0px 100px 1px #5e1a4f;
+    margin: auto;
+    padding: 30px
+}
+header {
+    inline-size: fit-content;
+    text-align: center;
+    margin: 15px auto 10px;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    display: block;
+    background-color: #6c33d6;
+    box-shadow: 0px 0px 20px 1px #6c33d6,
+    inset 5px 5px 25px 1px rgb(144, 60, 240);
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    padding-inline: 17.5px;
+    width: 49px;
+    margin-inline: auto;
+    &:hover {
+        transition: 300ms;
+        transform: scaleX(1.05);
+        box-shadow: 0px 0px 12px 1px #6c33d6,
+        inset 5px 5px 25px 1px rgb(144, 60, 240);
+    }
+    &:active {
+        transition: 100ms;
+        box-shadow: 0px 0px 25px 1px #6c33d6,
+        inset 5px 5px 25px 1px rgb(144, 60, 240);
+        transform: scaleY(0.95);
+    }
+}
+header img {
+    width: 45px;
+}
+h1 {
+    color: azure;
+    font-size: 25px;
+    margin-top: 30px;
+}
+h2 {
+    color: #b4b4b4;
+    margin-top: auto;
+    font-size: 13px;
+}
+label {
+    display: block;
+    margin-bottom: 12px;
+}
+.log_in {
+    margin-top: 30px;
+    padding-left: 0px;
+}
+input {
+    inline-size: 87%;
+    margin-inline: auto;
+    border-radius: 10px;
+    height: 37px;
+    background-color: #4b4a4a;
+    border: 1px solid #8b8b8b;
+    color: azure;
+}
+.user {
+    background-image: url(https://img.icons8.com/?size=100&id=84020&format=png&color=737373);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    padding-left: 40px;
+    background-position: 10.5px 9.5px;
+}
+.password {
+    background-image: url(https://img.icons8.com/?size=100&id=9Y2iEqSUEB9e&format=png&color=737373);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    padding-left: 40px;
+    background-position: 10.5px 9.5px;
+}
+.input_titles {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 15px auto 15px auto;
+    color: #b4b4b4;
+}
+.enter_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enter_button a {
+    display: inline-block;
+    height: 45px;
+    inline-size: 100%;
+    background-color: #6c33d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 1px #6c33d6,
+    inset 5px 5px 25px 1px rgb(144, 60, 240);
+}
+.enter_button p {
+    margin-top: 14px;
+}
+.enter_button a:hover {
+    transition: 300ms;
+    transform: scaleY(1.05);
+    box-shadow: 0px 0px 12px 1px #6c33d6,
+    inset 5px 5px 25px 1px rgb(144, 60, 240);
+}
+.enter_button a:active {
+    transition: 100ms;
+    box-shadow: 0px 0px 25px 1px #6c33d6,
+    inset 5px 5px 25px 1px rgb(144, 60, 240);
+    transform: scaleX(0.95);
+}
+.media_links {
+    display: flex;
+}
+.media_links li {
+    height: 39px;
+    width: 130px;
+}
+.media_links a {
+    height: 50px;
+    inline-size: 98px;
+    border-radius: 10px;
+    background-color: #4b4a4a;
+    border: 1px solid #8b8b8b;
+    box-shadow: inset 0px 0px 20px 1px rgb(95, 95, 95);
+    &:hover {
+        transition: 300ms;
+        transform: scaleY(1.05);
+    }
+    &:active {
+        transition: 100ms;
+        transform: scaleX(0.95);
+    }
+}
+.google_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+.google_link img {
+    width: 30px;
+}
+.github_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 6px;
+}
+.github_link img {
+    width: 35px;
+}
+.telegram_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+.telegram_link img {
+    width: 30px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.reg {
+    inline-size: fit-content;
+    color: #b4b4b4;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+.reg a {
+    color: #6c33d6;
+    text-decoration: none;
+    font-weight: 550;
+    transition: 300ms;
+    &:hover {
+        text-shadow: 0px 1px 1px #292929;
+        color: #804fdb;
+    }
+    &:active {
+        transition: 100ms;
+        text-shadow: none;
+        color: #4f1cad;
+    }
+}
